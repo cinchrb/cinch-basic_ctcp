@@ -13,6 +13,7 @@ First install the gem by running:
     [sudo] gem install cinch-basic_ctcp
 
 Then load it in your bot:
+
     require "cinch"
     require "cinch/plugins/basic_ctcp"
 
