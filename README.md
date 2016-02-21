@@ -39,3 +39,15 @@ are listed in this option.
       # only reply to VERSION and TIME
       c.plugins.options[Cinch::Plugins::BasicCTCP][:commands] = [:version, :time]
     end
+
+### :reply
+This option is a hash table of custom responses to VERSION, SOURCE,
+and CLIENTINFO.
+
+### Example configuration
+    configure do |c|
+      # send custom CTCP VERSION response
+      c.plugins.options[Cinch::Plugins::BasicCTCP][:reply] = {
+        :version => 'My robot v1.0'
+      }
+    end
