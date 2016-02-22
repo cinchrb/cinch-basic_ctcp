@@ -37,7 +37,7 @@ module Cinch
 
       private
       def reply(command)
-        config[:reply][command]
+        config[:replies][command]
       end
     end
   end
