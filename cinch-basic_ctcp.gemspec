@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'cinch-basic_ctcp'
-  s.version = '1.0.2'
+  s.version = '1.1.0'
   s.summary = 'Implement the most important CTCP replies for Cinch bots'
   s.description = 'Implement the most important CTCP replies for Cinch bots'
   s.authors = ['Dominik Honnef']
